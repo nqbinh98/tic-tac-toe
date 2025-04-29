@@ -7,7 +7,25 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
+  <div class="container">
+    <div class="info">  
+      <h1 class="turn">Tic Tac Toe</h1>
+    </div>
+    <div class="board"></div>
+    <div class="nav">
+      <button class="btn-reset btn">Play Again</button> 
+    </div>
+  </div>
 
+  <div class="modal">
+    <form class="form-game" action="submit">
+      <label for="nameOne">Player One's Name</label>
+      <input required type="text" id="nameOne">
+      <label for="nameTwo">Player Two's Name</label>
+      <input required type="text" id="nameTwo">
+      <button class="playBtn btn">Play</button>
+    </form>
+  </div>
   <script  src="./index.js"></script>
 </body>
 </html>
